@@ -1,5 +1,7 @@
+feature-engine
 ipython
 jupyterlab
+lightgbm
 matplotlib
 notebook
 numpy
