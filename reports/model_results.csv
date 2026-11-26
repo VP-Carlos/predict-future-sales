@@ -1,0 +1,16 @@
+nombre,modelo,configuración,RMSE entrenamiento,RMSE validación,segundos
+"RandomForest | depth=16, leaf=20",RandomForest,"depth=16, leaf=20",0.8295,0.8073,38.1498
+"ExtraTrees | depth=12, leaf=1",ExtraTrees,"depth=12, leaf=1",0.8327944228708265,0.810256305858577,30.708329439163208
+"ExtraTrees | depth=16, leaf=20",ExtraTrees,"depth=16, leaf=20",0.8471503181295535,0.8104989622421366,38.12615752220154
+"LightGBM | n=800, lr=0.03, leaves=127, sub=0.7",LightGBM,"n=800, lr=0.03, leaves=127, sub=0.7",0.7472,0.8129,111.029
+"ExtraTrees | depth=24, leaf=50",ExtraTrees,"depth=24, leaf=50",0.8569200948009151,0.81360222327014,54.63345909118652
+RandomForest | depth=12,RandomForest,depth=12,0.8103,0.8151,29.5545
+"LightGBM | n=300, lr=0.05, leaves=31",LightGBM,"n=300, lr=0.05, leaves=31",0.7955,0.8158,26.4575
+"LightGBM | n=500, lr=0.05, leaves=63, sub=0.8",LightGBM,"n=500, lr=0.05, leaves=63, sub=0.8",0.7574,0.816,50.8569
+"HistGB | iter=300, lr=0.05, leaves=63",HistGB,"iter=300, lr=0.05, leaves=63",0.7766,0.8164,73.7295
+RandomForest | depth=8,RandomForest,depth=8,0.8529,0.8171,23.8622
+"HistGB | iter=200, lr=0.1, leaves=31",HistGB,"iter=200, lr=0.1, leaves=31",0.7912,0.8193,42.969
+"HistGB | iter=300, lr=0.1, leaves=127, l2=1",HistGB,"iter=300, lr=0.1, leaves=127, l2=1",0.725,0.8297,67.0197
+Lasso | alpha=0.0001,Lasso,alpha=0.0001,0.976,0.9027,24.0774
+Lasso | alpha=0.001,Lasso,alpha=0.001,0.9762,0.9029,9.4425
+Lasso | alpha=0.01,Lasso,alpha=0.01,0.9796,0.9054,13.6694
